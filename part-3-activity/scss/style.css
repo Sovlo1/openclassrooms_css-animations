@@ -6,6 +6,7 @@
     bottom: 70%;
   }
 }
+
 @keyframes balloon {
   0% {
     bottom: 20%;
@@ -14,6 +15,7 @@
     bottom: 70%;
   }
 }
+
 .balloon-container {
   width: 120px;
   height: 175px;
@@ -43,7 +45,7 @@
   background-size: contain;
   z-index: 99;
   -webkit-animation: car-animation 3s;
-  animation: car-animation 3s;
+          animation: car-animation 3s;
 }
 
 .car:hover {
@@ -82,7 +84,7 @@
 }
 
 .hill::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -100px;
   right: -250px;
@@ -92,9 +94,9 @@
   border-top-left-radius: 0%;
   background-color: #94c943;
   -webkit-transform: rotate(-12deg);
-  transform: rotate(-12deg);
+          transform: rotate(-12deg);
   -webkit-box-shadow: 0 0 25px #cbf191 inset;
-  box-shadow: 0 0 25px #cbf191 inset;
+          box-shadow: 0 0 25px #cbf191 inset;
 }
 
 .hill::before {
@@ -107,7 +109,7 @@
   left: -54px;
   position: absolute;
   -webkit-transform: rotate(6deg);
-  transform: rotate(6deg);
+          transform: rotate(6deg);
   width: 120%;
 }
 
@@ -140,22 +142,22 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   z-index: 1;
 }
 
-.road .crossing [class^=line] {
+.road .crossing [class^="line"] {
   background-color: white;
   height: 16px;
   -webkit-transform: skewX(-38deg);
-  transform: skewX(-38deg);
+          transform: skewX(-38deg);
 }
 
 .road .crossing .line-1 {
@@ -182,39 +184,41 @@
   0% {
     bottom: 40%;
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
   }
   100% {
     bottom: 70%;
     -webkit-animation-timing-function: ease;
-    animation-timing-function: ease;
+            animation-timing-function: ease;
   }
 }
+
 @keyframes sun {
   0% {
     bottom: 40%;
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
   }
   100% {
     bottom: 70%;
     -webkit-animation-timing-function: ease;
-    animation-timing-function: ease;
+            animation-timing-function: ease;
   }
 }
+
 .sun {
   background: #ffe34b;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   -webkit-box-shadow: 0 0 50px rgba(253, 239, 39, 0.9);
-  box-shadow: 0 0 50px rgba(253, 239, 39, 0.9);
+          box-shadow: 0 0 50px rgba(253, 239, 39, 0.9);
   position: absolute;
   left: 20%;
   bottom: 95%;
   z-index: -2;
   -webkit-animation: sun 5s 0s linear alternate infinite;
-  animation: sun 5s 0s linear alternate infinite;
+          animation: sun 5s 0s linear alternate infinite;
 }
 
 body, html {
@@ -227,7 +231,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #d1e4ea;
   background: radial-gradient(ellipse at center, #d1e4ea 0%, #bae4f4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#d1e4ea", endColorstr="#bae4f4",GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1e4ea', endColorstr='#bae4f4',GradientType=1 );
   padding: 0;
   margin: 0;
 }
@@ -238,7 +242,4 @@ body {
   overflow: hidden;
   position: relative;
 }
-
-/*# sourceMappingURL=style.css.map */
-
 /*# sourceMappingURL=style.css.map */
